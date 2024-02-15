@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Food Ola </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- header start................... -->
+    <header>
+        <div class="navbar">
+            <img src="./imagess/logo2.jpg" alt="the logo" title="The Logo">
+            <nav>
+                <ul id="sidebar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times x-mark" onclick="closeMenu()"></i>
+                </ul>
+            </nav>
+            <i class="fas fa-bars menu-bar" onclick="openMenu()"></i>
+        </div>
+        <div class="content">
+            <h1>Welcome To <span class="primary-span">FOOD OLA</span> Restaurant</h1>
+            <p>Here you can find most delicacies food in the world</p>
+            <a href="#" class=" btn btn-primary">Book a Table</a>
+        </div>
+    </header>
+    <!-- header end................... -->
+    <!-- About start................... -->
+    <main>
+    <div id="about">
+        <div class="container">
+            <div class="title">
+                <h2>The Food Ola history</h2>
+                <p>More then 25+ years experiance</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto qui mollitia earum dolore commodi veritatis placeat 
+                        cupiditate tempora ipsa aliquam eos tempore, 
+                        Architecto qui mollitia earum dolore commodi veritatis placeat 
+                        cupiditate tempora ipsa aliquam eos tempore, 
+                        alias veniam accusantium? Porro corporis alias nihil fuga?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Architecto qui mollitia earum dolore commodi veritatis placeat 
+                        cupiditate tempora ipsa aliquam eos tempore, 
+                        Architecto qui mollitia earum dolore commodi veritatis placeat 
+                        cupiditate tempora ipsa aliquam eos tempore, 
+                        alias veniam accusantium? Porro corporis alias nihil fuga?                    </p>
+                    <a href="#" class="btn btn-secondary">LEARN MORE</a>
+                </div>
+                <div class="about-img">
+                    <img src="./imagess/about_img.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About end................... -->
+    <!-- Offers start................... -->
+    <div id="offers">
+        <div class="container">
+            <div class="title">
+                <h2>Our special offers</h2>
+                <p>More then 25+ years of experiance</p>
+            </div>
+            <div class="offers-items">
+                <div class="item"><img src="./imagess/offer1.png" alt="photo">
+                    <h3>Quattro pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, labore!</p>
+                    <p><span class="price-del">$55.00</span> <span class="primary-span">$30.00</span></p>
+                </div>
+                <div class="item"><img src="./imagess/offer2.png" alt="photo">
+                    <h3>Vegertarian pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, labore!</p>
+                    <p><span class="price-del">$75.00</span> <span class="primary-span">$63.00</span></p>
+                </div>
+                <div class="item"><img src="./imagess/offer3.png" alt="photo">
+                    <h3>Gluten-free pasta</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, labore!</p>
+                    <p><span class="price-del">$45.00 </span> <span class="primary-span">$39.00</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offers and................... -->
+    <!-- Menu start................... -->
+    <div id="menu">
+        <div class="container">
+            <div class="title">
+                <h2>Our Special Menu</h2>
+                <p>Order two and get third for free</p>
+            </div>
+            <div class="menu-items">
+                <div class="menu-items-left">
+                    <div class="menu-item">
+                        <img src="./imagess/food1.png" alt="photo">
+                        <div><h3>LASAL CHEESE <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p>
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food2.png" alt="photo">
+                        <div><h3>JUMBO CRAB SHRIMP <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="/imagess/food3.png" alt="photo">
+                        <div><h3>KOKTAIL JUCIE <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food4.png" alt="photo">
+                        <div><h3>CAPO STEAK <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food5.png" alt="photo">
+                        <div> <h3>FRUIT SALAD cheese <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food6.png" alt="photo">
+                        <div><h3>CHEESE PIZZA cheese <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-items-right">
+                    <div class="menu-item">
+                        <img src="./imagess/food7.jpeg" alt="photo">
+                        <div><h3>KOFTA MEAT <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food8.jpeg" alt="photo">
+                        <div><h3>SPANISH PIES <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food9.jpeg" alt="photo">
+                        <div><h3>CHEESE TOST <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food10.jpeg" alt="photo">
+                        <div><h3>FRUIT SALAD cheese <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food11.jpeg" alt="photo">
+                        <div><h3>CHICKEN SHAWARMA <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./imagess/food12.jpeg" alt="photo">
+                        <div><h3>MEGA CHEESE PIZZA <span class="primary-span">$18.00</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Veniam ullam voluptatem ad aliquam quam voluptates!</p> 
+                        <p class="price"> Price: <h5 class="h5-price">$17.00</h5></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button href="#" class=" btn">EXPLORE FULL MENU</button>
+        </div>
+    </div>
+    <!-- Menu end................... -->
+    <!-- Daytime start................... -->
+    <div id="daytime">
+        <div class="container">
+            <div class="daytime-items">
+                <div class="daytime-item">
+                    <img src="./imagess/breckfastIcon.png" alt="Breakfast">
+                    <h3>Breakfast</h3>
+                    <p>8:00 am to 10:00 am</p>
+                </div>
+                <div class="daytime-item">
+                    <img src="./imagess/lunchIcon.png" alt="Lunch">
+                    <h3>Lunch</h3>
+                    <p>4:00 pm to 7:00 pm</p>
+                </div>
+                <div class="daytime-item">
+                    <img src="./imagess/dinnerIcon.png" alt="Dinner">
+                    <h3>Dinner</h3>
+                    <p>9:00 pm to 1:00 am</p>
+                </div>
+                <div class="daytime-item">
+                    <img src="./imagess/dessertIcon.png" alt="Dessert">
+                    <h3>Dessert</h3>
+                    <p>All day</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Daytime end................... -->
+    <!-- Gallery start................... -->
+    <div id="gallery">
+        <div class="container">
+            <div class="title">
+                <h2>Our Food Gllaery</h2>
+            </div>
+            <div class="gallery-images">
+                <img src="./imagess/gallery1.jpeg" alt="phto">
+                <img src="./imagess/gallery2.jpeg" alt="phto">
+                <img src="./imagess/gallery3.jpeg" alt="phto">
+                <img src="./imagess/gallery3.jpg" alt="phto">
+                <img src="./imagess/gallery4.jpeg" alt="phto">
+                <img src="./imagess/gallery5.jpeg" alt="phto">
+                <img src="./imagess/gallery7.jpg" alt="phto">
+                <img src="./imagess/gallery6.jpeg" alt="phto">
+            </div>
+        </div>
+    </div>
+    <!-- Gallery end................... -->
+    <!-- Contact start................... -->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-title">
+                <h2>CONTACT US</h2>
+                <p>You can contact us any time</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div>
+                        <h3>ADDRESS</h3>
+                        <p><i class="fa-solid fa-location address-icon"></i> Mosary Mosque, 6 October, Egypt</p>
+                        <p><i class="fa-solid fa-phone address-icon"></i> phone: 01006960262</p>
+                        <p><i class="fa-regular fa-envelope address-icon"></i> Support@foodola.com</p>
+                    </div>
+                    <div>
+                        <h3>WORKING HOURS</h3>
+                        <p>8:00 am to 11:00 pm on Weekdays</p>
+                        <p>11:00 am to 1:00 am on Weekends</p>
+                    </div>
+                    <div>
+                        <h3>FOLLOWUS</h3>
+                        <a href="#"><i class="fa-brands fa-facebook icon"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-messenger icon"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp icon"></i></a>
+                    </div>
+                </div>
+                <form>
+                    <input type="text" id="name" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Your Email Address" required>
+                    <input type="text" id="supject" placeholder="Supject" required>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Your Message"></textarea>
+                    <button type="sybmit" class="btn">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Contact end................... -->
+</main>
+<!-- footer start....................  -->
+<div id="footer">
+    <p>Copyright &copy; 2024 All rights raserved || made by <a href="#" class="primary-span" target="_blank">Ola</a></p>
+    <a href="#"><i class="fas fa-arrow-alt-circle-up footer-icon"></i></a>
+</div>
+<!-- footer edn....................  -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
